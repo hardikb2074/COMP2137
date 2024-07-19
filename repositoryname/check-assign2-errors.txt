@@ -1,0 +1,35 @@
+--2024-07-18 23:30:17--  https://zonzorp.github.io/COMP2137/makecontainers.sh
+Resolving zonzorp.github.io (zonzorp.github.io)... 185.199.108.153, 185.199.111.153, 185.199.110.153, ...
+Connecting to zonzorp.github.io (zonzorp.github.io)|185.199.108.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13218 (13K) [application/x-sh]
+Saving to: ‘/home/hardikbhrat/makecontainers.sh’
+
+     0K .......... ..                                         100% 2.52M=0.005s
+
+2024-07-18 23:30:18 (2.52 MB/s) - ‘/home/hardikbhrat/makecontainers.sh’ saved [13218/13218]
+
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Warning: Permanently added 'server1-mgmt' (ED25519) to the list of known hosts.
+
+** (generate:229): WARNING **: 03:32:16.130: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+
+** (process:227): WARNING **: 03:32:16.754: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:227): WARNING **: 03:32:17.426: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+
+** (process:227): WARNING **: 03:32:17.426: Permissions for /etc/netplan/01-netcfg.yaml are too open. Netplan configuration should NOT be accessible by others.
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 42.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Synchronizing state of apache2.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable apache2
+Synchronizing state of squid.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable squid
+/home/remoteadmin/assignment2.sh: line 41: ufw: command not found
